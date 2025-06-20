@@ -33,4 +33,5 @@ require("lazy").setup({
   checker = { enabled = true },
 })
 
-vim.o.number = true
+vim.o.relativenumber = true;
+vim.o.number = true;
